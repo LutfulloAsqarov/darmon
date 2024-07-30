@@ -1,0 +1,29 @@
+.about {
+    padding: 80px 0;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    h2 {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 75px;
+        text-align: center;
+        padding: 0 0 30px;
+        color: #004290;
+    }
+    &__left {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 37.5px;
+        text-align: left;
+        width: 50%;
+        color: #004290;
+    }
+    &__right {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+}

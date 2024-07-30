@@ -1,0 +1,252 @@
+{
+    "home": {
+        "Turlar": "Turlar",
+        "Biz haqimizda": "Biz haqimizda",
+        "Bizning Afzalliklarimiz": "Bizning Afzalliklarimiz",
+        "Aloqa": "Aloqa",
+        "hero": "DUNYO SIZNI KUTMOQDA",
+        "tours": {
+            "title": "Turlar",
+            "country1": "Turkiya",
+            "city1": "TOSHKENT – ISTANBUL",
+
+            "country2": "Misr",
+            "city2": "TOSHKENT – QOHIRA",
+
+            "country3": "BAA",
+            "city3": "TOSHKENT – DUBAY",
+
+            "country4": "Yevropa",
+            "city4": "TOSHKENT – PARIJ",
+
+            "country5": "Tailand",
+            "city5": "TOSHKENT – BANGKOK"
+        },
+        "about": {
+            "title": "Biz Haqimizda",
+            "desc": "Bizning kompaniyamiz 2024 yilda Toshkentda tashkil etilganbo'lib, jadal rivojlanib, dunyo bo'ylab noyob turlar va sayohatlartaklif etmoqda. Biz unutilmas taassurotlar yaratish vamijozlarimizga yangi madaniyatlar, tarixlar va tabiat go'zalliklarini kashf etish imkoniyatini berishdan faxrlanamiz.Biz - o'z ishiga bag'ishlangan, yosh va dinamik mutaxassislar jamoasimiz. Gidlarimiz va tashkilotchilarimiz har bir sayohatni mijozlarning barcha istaklari va afzalliklarini hisobga olgan holda diqqat bilan rejalashtiradilar. Har bir sayohat haqiqiy sarguzashtga aylanishi uchun eng yaxshi yo'nalishlarni taklif qilishga intilamiz.Tashkil etilganimizdan beri biz yuqori sifatli xizmat va har bir sayohatchiga individual yondashuv tufayli mijozlarimizning ishonchini qozondik. Yevropaga tarixiy ekskursiyalar, Tailandda plyaj dam olish yoki Afrikada hayajonli safari bo'ladimi, biz har doim eng qiziqarli va unutilmas yo'nalishlarni taklif qilishga tayyormiz.Bizga qo'shiling va dunyoni yangi nuqtai nazardan kashf eting! Sizning sarguzashtingiz bu yerda boshlanadi."
+        },
+        "advantages": {
+            "title": "Bizning Afzalliklarimiz",
+            "card1": "Individual yondashuv",
+            "card2": "Tajriba va professionallik",
+            "card3": "Keng yo'nalishlar tanlovi",
+            "card4": "Ishonchlilik va xavfsizlik",
+            "card5": "Raqobatbardosh narxlar",
+            "card6": "24/7 qo'llab-quvvatlash"
+        },
+        "footer": {
+            "contact": "Biz har doim sizning savollaringiz va takliflaringizga ochiqmiz. Biz bilan qulay usulda bog'laning, va bizning jamoamiz sizga imkon qadar tezroq javob beradi.",
+            "button": "Menga qong'iroq qiling"
+        }
+    },
+    "button": {
+        "btn": "Buyurtma berish"
+    },
+    "turkey": {
+        "country": "Turkiya",
+        "title": "Istanbul: Asrlar Kesisgan Abadiy Shahar",
+        "text1": "Istanbulga xush kelibsiz – Sharq va G'arb kesisadigan, sehr va tarixiy atmosfera yaratgan shahar. Siz Sultonahmetning jozibali dunyosiga sho'ng'ishingiz, u yerda tor ko'chalar sizni buyuk Ko'k masjid va Aya Sofiyaga olib boradi. Sultonahmet bo'ylab sayohat sizni Vizantiya va Usmoniy imperiyasining uzoq davrlariga olib boradi.",
+        "text2": "Shahar ramzi bo'lgan Topqapi saroyi, Usmoniy sultonlarining rezidensiyasi, sizni boylik va haremning intrigalariga cho'mdiradi. Mashhur Katta Bozor bo'ylab yuring, bu yerda siz noyob suvenirlar, ziravorlar va antikvar buyumlarni topasiz. Bosfor bo'yidagi ajoyib manzaralardan bahramand bo'ling va Istanbulning ruhini his eting. Turni Dolmabahche saroyi, Usmoniy davrining boylik va nafislik ramzi, bilan yakunlang.",
+        "card1": {
+            "tur": "Tur Istanbul: Dastur",
+            "place": "TOSHKENT – ISTANBUL",
+            "plan1": "Istanbul aeroportiga kelish.",
+            "plan2": "Transfer va mehmonxonaga joylashish.",
+            "plan3": "Gid bilan uchrashuv",
+            "plan4": "Bo'sh vaqt.",
+            "plan5": "Istanbulda tunash."
+        },
+        "card2": {
+            "tur": "Tur Istanbul: Dastur",
+            "place": "ISTANBUL EKSKURSIYASI",
+            "plan1": "Mehmonxonada nonushta",
+            "plan2": "Ko'k Masjid va Aya Sofiyani ziyorat qilish.",
+            "plan3": "Topqapi saroyini ko'rish.",
+            "plan4": "Tushlik",
+            "plan5": "Katta Bozor va Bosfor bo'ylab sayohat.",
+            "plan6": "Dolmabahche saroyini ziyorat qilish.",
+            "plan7": "Mehmonxonada kechki ovqat.",
+            "plan8": "Bo'sh vaqt."
+        }
+    },
+    "egypt": {
+        "country": "Misr",
+        "title": "Misr: Fir'avnlarning Vahshiyligi va Qadimiy Sirlar",
+        "text1": "Misrga xush kelibsiz – tarix har qadamda jonlanadigan mamlakat. Sayohatingiz Giza piramidalari ziyorati bilan boshlanadi, bu yerda siz Buyuk Sfenksni ko'rasiz va qadimiy fir'avnlarning sirlarini bilib olasiz. Heopsa, Xafre va Mikerina piramidalari sizning xotirangizda abadiy qoladi.",
+        "text2": "Misrning ramzi bo'lgan Qohira – qadimiy ibodatxonalar va masjidlar zamonaviy binolar bilan uyg'unlashgan shahar. Siz Qohira ko'chalari bo'ylab yurasiz, Tutanxamon xazinalari saqlanadigan Misr muzeyini ziyorat qilasiz va Nil daryosidan bahramand bo'lasiz",
+        "text3": "Turni davom ettirib, Misrning qadimiy poytaxti Luksorga yo'l olamiz, bu yerda siz Karnak ibodatxonasi va Qirollar vodiysini ziyorat qilasiz. Siz qadimiy boyliklar atmosferasiga sho'ng'ib, ulug'vor ibodatxonalar va maqbaralarni o'rganasiz.",
+        "card1": {
+            "tur": "Tur Misr: Dastur",
+            "place": "TOSHKENT – QOHIRA",
+            "plan1": "Qohira aeroportiga kelish.",
+            "plan2": "Transfer va mehmonxonaga joylashish.",
+            "plan3": "Gid bilan uchrashuv",
+            "plan4": "Bo'sh vaqt.",
+            "plan5": "Qohirada tunash."
+        },
+        "card2": {
+            "tur": "Tur Misr: Dastur",
+            "place": "QOHIRA EKSKURSIYASI",
+            "plan1": "Mehmonxonada nonushta",
+            "plan2": "Giza piramidalari va Buyuk Sfenksni ziyorat qilish.",
+            "plan3": "Qohira bo'ylab sayohat.",
+            "plan4": "Tushlik",
+            "plan5": "Misr muzeyini ziyorat qilish.",
+            "plan6": "Mehmonxonada kechki ovqat.",
+            "plan7": "Bo'sh vaqt."
+        },
+        "card3": {
+            "tur": "Tur Misr: Dastur",
+            "place": "QOHIRA – LUKSOR",
+            "plan1": "Mehmonxonada nonushta",
+            "plan2": "Luksorga transfer.",
+            "plan3": "Mehmonxonaga joylashish.",
+            "plan4": "Tushlik",
+            "plan5": "Karnak ibodatxonasi va Qirollar vodiysini ziyorat qilish.",
+            "plan6": "Mehmonxonada kechki ovqat.",
+            "plan7": "Bo'sh vaqt."
+        }
+    },
+    "dubai": {
+        "country": "BAA",
+        "title": "BAA: Zamonaviy Hashamat va Abadiy An'analar",
+        "text1": "Birlashgan Arab Amirliklariga xush kelibsiz – zamonaviy osmono'par binolar qadimiy an'analar bilan yonma-yon bo'lgan mamlakat. Sayohatingiz Dubayda boshlanadi – kelajak shahrida, bu yerda sizni hashamatli mehmonxonalar, savdo markazlari va ulug'vor binolar kutmoqda. Siz dunyodagi eng baland osmono'par bino – Burj Xalifani ziyorat qilasiz va uning kuzatuv maydonchasidan hayratlanarli manzaralardan bahramand bo'lasiz.",
+        "text2": "Shahar ramzi bo'lgan Palma Jumeira – sun'iy orol, bu yerda siz plyajlarda dam olishingiz va hashamatli kurortlardan bahramand bo'lasiz. Dubay Marinada sayr qilib, zamonaviy arxitekturadan zavqlaning va mashhur akvarium joylashgan Dubay Mall savdo markazini ziyorat qiling.",
+        "text3": "Turni davom ettirib, BAA poytaxti Abu Dabiga yo'l olamiz. Siz Shayx Zayd masjidini, dunyodagi eng katta masjidlardan birini, ko'rasiz va qadimiy va zamonaviy san'atni uyg'unlashtirgan Luvr Abu Dabi muzeyini ziyorat qilasiz.",
+        "card1": {
+            "tur": "Tur BAA: Dastur",
+            "place": "TOSHKENT – DUBAY",
+            "plan1": "Dubay aeroportiga kelish.",
+            "plan2": "Transfer va mehmonxonaga joylashish.",
+            "plan3": "Gid bilan uchrashuv",
+            "plan4": "Bo'sh vaqt.",
+            "plan5": "Qohirada tunash."
+        },
+        "card2": {
+            "tur": "Tur BAA: Dastur",
+            "place": "DUBAY EKSKURSIYASI",
+            "plan1": "Mehmonxonada nonushta",
+            "plan2": "Burj Xalifa va kuzatuv maydonchasini ziyorat qilish.",
+            "plan3": "Palma Jumeira bo'ylab sayohat.",
+            "plan4": "Tushlik",
+            "plan5": "Dubay Marina bo'ylab sayohat.",
+            "plan6": "Dubay Mall savdo markazini ziyorat qilish.",
+            "plan7": "Mehmonxonada kechki ovqat.",
+            "plan8": "Bo'sh vaqt."
+        },
+        "card3": {
+            "tur": "Tur BAA: Dastur",
+            "place": "DUBAY – ABU DABI",
+            "plan1": "Mehmonxonada nonushta",
+            "plan2": "Abu Dabiga transfer.",
+            "plan3": "Mehmonxonaga joylashish.",
+            "plan4": "Shayx Zayd masjidini ziyorat qilish.",
+            "plan5": "Tushlik",
+            "plan6": "Luvr Abu Dabi muzeyini ziyorat qilish.",
+            "plan7": "Mehmonxonada kechki ovqat.",
+            "plan8": "Bo'sh vaqt."
+        }
+    },
+    "europe": {
+        "country": "Yevropa",
+        "title": "Yevropa: Ilhom va Sehrli Qadimiy Dunyo",
+        "text1": "Yevropaga xush kelibsiz – har bir mamlakat o'ziga xos sarguzashtlar va bebaho madaniy boyliklarni taklif qiladigan qit'a. Sayohatingiz Parijdan boshlanadi, sevgi va san'at shahridan. Siz Eyfel minorasini ko'rasiz, Yelisey maydonlari bo'ylab sayr qilasiz va qulay kafelarda nozik fransuz taomlaridan bahramand bo'lasiz.",
+        "text2": "Sayohatingizni Rimda davom eting, abadiy shahar, bu yerda har bir ko'cha tarix bilan nafas oladi. Siz Kolizey, Rim forumi va Vatikanni ziyorat qilib, qadimiy imperiyaning ulug'vorligi va ma'naviyatiga sho'ng'ishingiz mumkin.",
+        "text3": "Sizning yo'lingiz Amsterdamdan ham o'tadi, kanallar va velosipedlar shahri. Bu yerda sizni jozibali kanallar, Van Gogh muzeyi va erkinlik va ijodiy atmosfera kutmoqda.",
+        "card1": {
+            "tur": "Tur Yevropa: Dastur",
+            "place": "TOSHKENT – PARIJ",
+            "plan1": "Parij aeroportiga kelish.",
+            "plan2": "Transfer va mehmonxonaga joylashish.",
+            "plan3": "Gid bilan uchrashuv.",
+            "plan4": "Bo'sh vaqt.",
+            "plan5": "Parijda tunash."
+        },
+        "card2": {
+            "tur": "Tur Yevropa: Dastur",
+            "place": "PARIJ EKSKURSIYASI",
+            "plan1": "Mehmonxonada nonushta",
+            "plan2": "Eyfel minorasini ziyorat qilish.",
+            "plan3": "Yelisey maydonlari bo'ylab sayr.",
+            "plan4": "Tushlik",
+            "plan5": "Luvr muzeyini ziyorat qilish.",
+            "plan6": "Mehmonxonada kechki ovqat.",
+            "plan7": "Bo'sh vaqt."
+        },
+        "card3": {
+            "tur": "Tur Yevropa: Dastur",
+            "place": "PARIJ – RIM",
+            "plan1": "Mehmonxonada nonushta",
+            "plan2": "Aeroportga transfer va Rimga parvoz.",
+            "plan3": "Mehmonxonaga joylashish.",
+            "plan4": "Kolizey va Rim forumini ziyorat qilish.",
+            "plan5": "Tushlik",
+            "plan6": "Vatikan bo'ylab sayohat.",
+            "plan7": "Mehmonxonada kechki ovqat.",
+            "plan8": "Bo'sh vaqt."
+        },
+        "card4": {
+            "tur": "Tur Yevropa: Dastur",
+            "place": "RIM – AMSTERDAM",
+            "plan1": "Mehmonxonada nonushta",
+            "plan2": "Aeroportga transfer va Amsterdamga parvoz.",
+            "plan3": "Mehmonxonaga joylashish.",
+            "plan4": "Kanallar bo'ylab sayr.",
+            "plan5": "Tushlik",
+            "plan6": "Van Gogh muzeyini ziyorat qilish.",
+            "plan7": "Mehmonxonada kechki ovqat.",
+            "plan8": "Bo'sh vaqt."
+        }
+    },
+    "thailand": {
+        "country": "Tailand",
+        "title": "Tailand: Janubi-Sharqiy Osiyoning Ekzotik Sayohati",
+        "text1": "Tailandga xush kelibsiz – bu yerda ekzotik tabiat, qadimiy ibodatxonalar va zamonaviy hayot uyg'unlashib, o'ziga xos sayohat tajribasini yaratadi. Sayohatingiz Bangkokdan boshlanadi, bu jonli megapolisda siz ajoyib ibodatxonalar va saroylarni ko'rasiz. Siz Zumrad Budda ibodatxonasi va Qirollik saroyini ziyorat qilib, bu qadimiy madaniyatning ulug'vorligi va ma'naviyatini his etasiz.",
+        "text2": "Sayohatingizni Tailandning madaniy poytaxti Chiang Mayda davom ettiring, bu yerda siz mashhur Vat Phra That Doi Suthep ibodatxonasini ziyorat qilishingiz va tunda bozorlarda an'anaviy tailand hunarmandchiliklaridan bahramand bo'lishingiz mumkin.",
+        "text3": "Turni Phuketning go'zal plyajlarida yakunlang. Oq qum, kristalli tiniq suv va kokos palmalari dam olish va relaksatsiya uchun ideal muhitni yaratadi.",
+        "card1": {
+            "tur": "Tur Tailand: Dastur",
+            "place": "TOSHKENT – BANGKOK",
+            "plan1": "Bangkok aeroportiga kelish.",
+            "plan2": "Transfer va mehmonxonaga joylashish.",
+            "plan3": "Gid bilan uchrashuv.",
+            "plan4": "Bo'sh vaqt.",
+            "plan5": "Bangkokda tunash."
+        },
+        "card2": {
+            "tur": "Tur Tailand: Dastur",
+            "place": "BANGKOK EKSKURSIYASI",
+            "plan1": "Mehmonxonada nonushta",
+            "plan2": "Zumrad Budda ibodatxonasi va Qirollik saroyini ziyorat qilish.",
+            "plan3": "Tushlik",
+            "plan4": "Chatuchak bozori bo'ylab sayohat.",
+            "plan5": "Mehmonxonada kechki ovqat.",
+            "plan6": "Bo'sh vaqt."
+        },
+        "card3": {
+            "tur": "Tur Tailand: Dastur",
+            "place": "BANGKOK – CHIANG MAY",
+            "plan1": "Mehmonxonada nonushta",
+            "plan2": "Aeroportga transfer va Chiang Mayga parvoz.",
+            "plan3": "Mehmonxonaga joylashish.",
+            "plan4": "Vat Phra That Doi Suthep ibodatxonasini ziyorat qilish.",
+            "plan5": "Tushlik",
+            "plan6": "Tunda bozor bo'ylab sayohat.",
+            "plan7": "Mehmonxonada kechki ovqat.",
+            "plan8": "Bo'sh vaqt."
+        },
+        "card4": {
+            "tur": "Tur Tailand: Dastur",
+            "place": "RIM – AMSTERDAM",
+            "plan1": "Mehmonxonada nonushta",
+            "plan2": "Aeroportga transfer va Phuketga parvoz.",
+            "plan3": "Mehmonxonaga joylashish.",
+            "plan4": "Plyajda dam olish.",
+            "plan5": "Tushlik",
+            "plan6": "Patong plyajini ziyorat qilish.",
+            "plan7": "Mehmonxonada kechki ovqat.",
+            "plan8": "Bo'sh vaqt."
+        }
+    }
+}

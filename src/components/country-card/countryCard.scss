@@ -1,0 +1,49 @@
+.country {
+    &__cards {
+        display: flex;
+        // align-items: start;
+        justify-content: center;
+        gap: 24px;
+        flex-wrap: wrap;
+        // display: grid;
+        // grid-template-columns: repeat(3, 1fr);
+        // grid-gap: 24px;
+        // justify-content: center;
+
+        padding: 80px 0;
+    }
+
+    &__card {
+        padding: 30px 20px;
+        // width: 500px;
+        width: calc(33.3% - 16px);
+        height: 650px;
+        background: #f1f3ff;
+        color: #004290;
+        // display: flex;
+        // flex-direction: column;
+        // gap: 30px;
+        border-radius: 30px;
+        box-shadow: 0 0 10px #ddd;
+        p {
+            font-size: 25px;
+            font-weight: 400;
+        }
+        h3 {
+            font-size: 25px;
+            font-weight: 700;
+            padding: 16px 0;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            li {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                font-size: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,267 @@
+import CountryCard from "@/components/country-card/CountryCard";
+import CountryTop from "@/components/country/CountryTop";
+// import { TURKEY_TOP } from "@/static";
+import React, { FC } from "react";
+import checkImg from "@/assets/images/check.svg";
+import Image from "next/image";
+import egyptImg from "@/assets/images/egypt.svg";
+import egyptLogo from "@/assets/images/egypt-logo.jpg";
+import { useTranslations } from "next-intl";
+import Order from "@/components/order/Order";
+
+const Egypt: FC = () => {
+    const t = useTranslations("egypt");
+
+    return (
+        <>
+            <CountryTop>
+                <div className="container">
+                    <div className="country">
+                        <div className="country__hero">
+                            <Image
+                                src={egyptImg}
+                                alt="img"
+                                width={1000}
+                                height={300}
+                            />
+                        </div>
+                        <div className="country__info">
+                            <div className="country__info__left">
+                                <h3
+                                    style={{
+                                        fontSize: "27px",
+                                        fontWeight: "700",
+                                    }}
+                                >
+                                    {t("country")}
+                                </h3>
+                                <p
+                                    className="country__info__left-title"
+                                    style={{
+                                        fontSize: "25px",
+                                        fontWeight: "700",
+                                    }}
+                                >
+                                    {t("title")}
+                                </p>
+                                <p>{t("text1")}</p>
+                                <p>{t("text2")}</p>
+                                <p>{t("text3")}</p>
+                            </div>
+                            <div className="country__info__right">
+                                <Image
+                                    src={egyptLogo}
+                                    alt="img"
+                                    width={500}
+                                    height={500}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </CountryTop>
+            <div className="container country__cards">
+                <div className="country__card">
+                    <CountryCard>
+                        <p>{t("card1.tur")}</p>
+                        <h3>{t("card1.place")}</h3>
+                        <ul>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card1.plan1")}</span>
+                            </li>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card1.plan2")}</span>
+                            </li>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card1.plan3")}</span>
+                            </li>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card1.plan4")}</span>
+                            </li>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card1.plan5")}</span>
+                            </li>
+                        </ul>
+                    </CountryCard>
+                </div>
+                <div className="country__card">
+                    <CountryCard>
+                        <p>{t("card2.tur")}</p>
+                        <h3>{t("card2.place")}</h3>
+                        <ul>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card2.plan1")}</span>
+                            </li>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card2.plan2")}</span>
+                            </li>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card2.plan3")}</span>
+                            </li>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card2.plan4")}</span>
+                            </li>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card2.plan5")}</span>
+                            </li>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card2.plan6")}</span>
+                            </li>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card2.plan7")}</span>
+                            </li>
+                        </ul>
+                    </CountryCard>
+                </div>
+                <div className="country__card">
+                    <CountryCard>
+                        <p>{t("card3.tur")}</p>
+                        <h3>{t("card2.place")}</h3>
+                        <ul>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card3.plan1")}</span>
+                            </li>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card3.plan2")}</span>
+                            </li>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card3.plan3")}</span>
+                            </li>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card3.plan4")}</span>
+                            </li>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card3.plan5")}</span>
+                            </li>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card3.plan6")}</span>
+                            </li>
+                            <li>
+                                <Image
+                                    src={checkImg}
+                                    alt="img"
+                                    width={20}
+                                    height={20}
+                                />
+                                <span>{t("card3.plan7")}</span>
+                            </li>
+                        </ul>
+                    </CountryCard>
+                </div>
+            </div>
+            <div className="order">
+                <Order />
+            </div>
+        </>
+    );
+};
+
+export default Egypt;

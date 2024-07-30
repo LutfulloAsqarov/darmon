@@ -1,0 +1,253 @@
+{
+    "home": {
+        "Turlar": "Tours",
+        "Biz haqimizda": "About Us",
+        "Bizning Afzalliklarimiz": "Our Advantages",
+        "Aloqa": "Contact",
+        "hero": "THE WORLD IS WAITING FOR YOU",
+        "tours": {
+            "title": "Tours",
+            "country1": "Turkey",
+            "city1": "TASHKENT – ISTANBUL",
+
+            "country2": "Egypt",
+            "city2": "TASHKENT – CAIRO",
+
+            "country3": "UAE",
+            "city3": "TASHKENT – DUBAI",
+
+            "country4": "Europe",
+            "city4": "TASHKENT – PARIS",
+
+            "country5": "Thailand",
+            "city5": "TASHKENT – BANGKOK"
+        },
+        "about": {
+            "title": "About Us",
+            "desc": "Our company was founded in Tashkent in 2024 and is rapidly growing, offering unique tours and travels around the world. We are proud to create unforgettable impressions and provide our clients with the opportunity to discover new cultures, histories, and natural beauties.We are a young and dynamic team of dedicated professionals. Our guides and organizers carefully plan each trip, taking into account all the wishes and preferences of our clients. We strive to offer only the best routes to make every trip a true adventure.Since our foundation, we have gained the trust of our clients thanks to high-quality service and an individual approach to each traveler. Whether it's historical excursions in Europe, beach vacations in Thailand, or exciting safaris in Africa, we are always ready to offer the most interesting and unforgettable routes.Join us and discover the world from a new perspective! Your adventure begins here."
+        },
+        "advantages": {
+            "title": "Our Advantages",
+            "card1": "Individual approach",
+            "card2": "Experience and professionalism",
+            "card3": "Wide selection of destinations",
+            "card4": "Reliability and safety",
+            "card5": "Competitive prices",
+            "card6": "24/7 support"
+        },
+
+        "footer": {
+            "contact": "We are always open to your questions and suggestions. Contact us in any convenient way, and our team will respond to you as soon as possible.",
+            "button": "Menga qong'iroq qiling"
+        }
+    },
+    "button": {
+        "btn": "Placing an order"
+    },
+    "turkey": {
+        "country": "Turkey",
+        "title": "Istanbul: The Eternal City at the Crossroads of Ages",
+        "text1": "Welcome to Istanbul – a city where East meets West, creating a unique atmosphere of magic and history. You will immerse yourself in the enchanting world of Sultanahmet, where narrow streets lead you to the grand Blue Mosque and Hagia Sophia. A stroll through Sultanahmet will transport you to the distant times of the Byzantine and Ottoman empires.",
+        "text2": "The city's symbol, Topkapi Palace, the residence of Ottoman sultans, will immerse you in the wealth and intrigues of the harem. Walk through the famous Grand Bazaar, where you will find unique souvenirs, spices, and antiques. Enjoy the stunning views along the Bosphorus and feel the spirit of Istanbul. End your tour with a visit to Dolmabahce Palace, a symbol of wealth and elegance of the Ottoman era.",
+        "card1": {
+            "tur": "Tour Istanbul: Program",
+            "place": "TASHKENT – ISTANBUL",
+            "plan1": "Arrival at Istanbul airport.",
+            "plan2": "Transfer and hotel accommodation.",
+            "plan3": "Meeting with the guide.",
+            "plan4": "Free time..",
+            "plan5": "Overnight in Istanbul."
+        },
+        "card2": {
+            "tur": "Tour Istanbul: Program",
+            "place": "ISTANBUL EXCURSION",
+            "plan1": "Breakfast at the hotel.",
+            "plan2": "Visit the Blue Mosque and Hagia Sophia.",
+            "plan3": "Tour of Topkapi Palace.",
+            "plan4": "Lunch",
+            "plan5": "Walk through the Grand Bazaar and along the Bosphorus.",
+            "plan6": "Visit Dolmabahce Palace.",
+            "plan7": "Dinner at the hotel.",
+            "plan8": "Free time.."
+        }
+    },
+    "egypt": {
+        "country": "Egypt",
+        "title": "Egypt: The Splendor of the Pharaohs and Ancient Mysteries",
+        "text1": "Welcome to Egypt – a country where history comes alive at every step. Your journey will begin with a visit to the majestic Pyramids of Giza, where you will see the Great Sphinx and learn the secrets of ancient pharaohs. The impressive pyramids of Khufu, Khafre, and Menkaure will remain in your memory forever.",
+        "text2": "The symbol of Egypt is Cairo – a city of contrasts, where ancient temples and mosques harmoniously coexist with modern buildings. You will walk through the streets of Cairo, visit the Egyptian Museum, which houses the treasures of Tutankhamun, and enjoy views of the Nile River.",
+        "text3": "Continuing our tour, we head to Luxor, the ancient capital of Egypt, where you will visit the Karnak Temple and the Valley of the Kings. You will immerse yourself in the atmosphere of ancient splendor, exploring magnificent temples and tombs.",
+        "card1": {
+            "tur": "Tour Egypt: Program",
+            "place": "TASHKENT – CAIRO",
+            "plan1": "Arrival at Cairo airport.",
+            "plan2": "Transfer and hotel accommodation.",
+            "plan3": "Meeting with the guide.",
+            "plan4": "Free time.",
+            "plan5": "Overnight in Cairo."
+        },
+        "card2": {
+            "tur": "Tour Egypt: Program",
+            "place": "CAIRO EXCURSION",
+            "plan1": "Breakfast at the hotel.",
+            "plan2": "Visit the Pyramids of Giza and the Great Sphinx.",
+            "plan3": "Walk through Cairo.",
+            "plan4": "Lunch.",
+            "plan5": "Visit the Egyptian Museum.",
+            "plan6": "Dinner at the hotel.",
+            "plan7": "Free time."
+        },
+        "card3": {
+            "tur": "Tour Egypt: Program",
+            "place": "CAIRO – LUXOR",
+            "plan1": "Breakfast at the hotel.",
+            "plan2": "Transfer to Luxor.",
+            "plan3": "Hotel accommodation.",
+            "plan4": "Lunch.",
+            "plan5": "Visit the Karnak Temple and the Valley of the Kings.",
+            "plan6": "Dinner at the hotel.",
+            "plan7": "Free time."
+        }
+    },
+    "dubai": {
+        "country": "UAE",
+        "title": "UAE: Modern Luxury and Eternal Traditions",
+        "text1": "Welcome to the United Arab Emirates – a country where modern skyscrapers stand alongside ancient traditions. Your journey begins in Dubai – the city of the future, where you will be greeted by luxurious hotels, shopping centers, and magnificent buildings. You will visit the Burj Khalifa, the tallest skyscraper in the world, and enjoy breathtaking views from its observation deck.",
+        "text2": "The city's symbol is Palm Jumeirah, an artificial island where you can relax on the beaches and enjoy luxurious resorts. Stroll through Dubai Marina, admire the modern architecture, and visit the Dubai Mall, home to the famous aquarium.",
+        "text3": "Continuing the tour, we head to Abu Dhabi, the capital of the UAE. You will see the magnificent Sheikh Zayed Mosque, one of the largest mosques in the world, and visit the Louvre Abu Dhabi, a museum that blends ancient and modern art.",
+        "card1": {
+            "tur": "Tour UAE: Program",
+            "place": "TASHKENT – DUBAI",
+            "plan1": "Arrival at Dubai airport.",
+            "plan2": "Transfer and hotel accommodation.",
+            "plan3": "Meeting with the guide.",
+            "plan4": "Free time.",
+            "plan5": "Overnight in Dubai."
+        },
+        "card2": {
+            "tur": "Tour UAE: Program",
+            "place": "DUBAI EXCURSION",
+            "plan1": "Breakfast at the hotel.",
+            "plan2": "Visit Burj Khalifa and its observation deck.",
+            "plan3": "Tour of Palm Jumeirah.",
+            "plan4": "Lunch",
+            "plan5": "Walk through Dubai Marina.",
+            "plan6": "Visit the Dubai Mall.",
+            "plan7": "Dinner at the hotel.",
+            "plan8": "Free time."
+        },
+        "card3": {
+            "tur": "Tour UAE: Program",
+            "place": "DUBAY – ABU DABI",
+            "plan1": "Breakfast at the hotel.",
+            "plan2": "Transfer to Abu Dhabi.",
+            "plan3": "Hotel accommodation.",
+            "plan4": "Visit Sheikh Zayed Mosque.",
+            "plan5": "Lunch",
+            "plan6": "Visit the Louvre Abu Dhabi.",
+            "plan7": "Dinner at the hotel.",
+            "plan8": "Free time."
+        }
+    },
+    "europe": {
+        "country": "Europe",
+        "title": "Europe: Inspiration and Magic of the Old World",
+        "text1": "Welcome to Europe – a continent where each country offers unique adventures and invaluable cultural treasures. Your journey begins in Paris, the city of love and art. You will see the Eiffel Tower, stroll along the Champs-Élysées, and enjoy exquisite French cuisine in cozy cafes.",
+        "text2": "Continue your journey in Rome, the eternal city, where every street breathes history. You will visit the Colosseum, the Roman Forum, and the Vatican, immersing yourself in the grandeur and spirituality of the ancient empire.",
+        "text3": "Your path will also take you through Amsterdam, the city of canals and bicycles. Here you will find picturesque canals, the Van Gogh Museum, and a unique atmosphere of freedom and creativity.",
+        "card1": {
+            "tur": "Tour Europe: Program",
+            "place": "TASHKENT – PARIS",
+            "plan1": "Arrival at Paris airport.",
+            "plan2": "Transfer and hotel accommodation.",
+            "plan3": "Meeting with the guide.",
+            "plan4": "Free time.",
+            "plan5": "Overnight in Paris."
+        },
+        "card2": {
+            "tur": "Tour Europe: Program",
+            "place": "PARIS EXCURSION",
+            "plan1": "Breakfast at the hotel.",
+            "plan2": "Visit the Eiffel Tower.",
+            "plan3": "Stroll along the Champs-Élysées.",
+            "plan4": "Lunch",
+            "plan5": "Visit the Louvre Museum.",
+            "plan6": "Dinner at the hotel.",
+            "plan7": "Free time."
+        },
+        "card3": {
+            "tur": "Tour Europe: Program",
+            "place": "PARIS – ROME",
+            "plan1": "Breakfast at the hotel.",
+            "plan2": "Transfer to the airport and flight to Rome.",
+            "plan3": "Hotel accommodation.",
+            "plan4": "Visit the Colosseum and Roman Forum.",
+            "plan5": "Lunch",
+            "plan6": "Walk through the Vatican.",
+            "plan7": "Dinner at the hotel.",
+            "plan8": "Free time."
+        },
+        "card4": {
+            "tur": "Tour Europe: Program",
+            "place": "ROME – AMSTERDAM",
+            "plan1": "Breakfast at the hotel.",
+            "plan2": "Transfer to the airport and flight to Amsterdam.",
+            "plan3": "Hotel accommodation.",
+            "plan4": "Walk along the canals.",
+            "plan5": "Lunch",
+            "plan6": "Visit the Van Gogh Museum.",
+            "plan7": "Dinner at the hotel.",
+            "plan8": "Free time."
+        }
+    },
+    "thailand": {
+        "country": "Thailand",
+        "title": "Thailand: Exotic Journey to the Heart of Southeast Asia",
+        "text1": "Welcome to Thailand – a country where exotic nature, ancient temples, and modern life harmoniously blend, creating a unique travel experience. Your journey begins in Bangkok, a lively metropolis where you will see magnificent temples and palaces. You will visit the Temple of the Emerald Buddha and the Grand Palace, feeling the grandeur and spirituality of this ancient culture.",
+        "text2": "Continue your journey in Chiang Mai, the cultural capital of Thailand, where you can visit the famous Wat Phra That Doi Suthep temple and enjoy traditional Thai crafts at the night market.",
+        "text3": "End the tour on the beautiful beaches of Phuket. White sand, crystal-clear water, and coconut palms create the perfect atmosphere for relaxation and unwinding.",
+        "card1": {
+            "tur": "Tour Thailand: Program",
+            "place": "TASHKENT – BANGKOK",
+            "plan1": "Arrival at Bangkok airport.",
+            "plan2": "Transfer and hotel accommodation.",
+            "plan3": "Meeting with the guide.",
+            "plan4": "Free time.",
+            "plan5": "Overnight in Bangkok."
+        },
+        "card2": {
+            "tur": "Tour Thailand: Program",
+            "place": "BANGKOK EXCURSION",
+            "plan1": "Breakfast at the hotel.",
+            "plan2": "Visit the Temple of the Emerald Buddha and the Grand Palace.",
+            "plan3": "Lunch",
+            "plan4": "Walk through the Chatuchak Market.",
+            "plan5": "Dinner at the hotel.",
+            "plan6": "Free time."
+        },
+        "card3": {
+            "tur": "Tour Thailand: Program",
+            "place": "BANGKOK – CHIANG MAI",
+            "plan1": "Breakfast at the hotel.",
+            "plan2": "Transfer to the airport and flight to Chiang Mai.",
+            "plan3": "Hotel accommodation.",
+            "plan4": "Visit Wat Phra That Doi Suthep temple.",
+            "plan5": "Lunch",
+            "plan6": "Walk through the night market.",
+            "plan7": "Dinner at the hotel.",
+            "plan8": "Free time."
+        },
+        "card4": {
+            "tur": "Tour Thailand: Program",
+            "place": "CHIANG MAI – PHUKET",
+            "plan1": "Breakfast at the hotel.",
+            "plan2": "Transfer to the airport and flight to Phuket.",
+            "plan3": "Hotel accommodation.",
+            "plan4": "Beach relaxation.",
+            "plan5": "Lunch",
+            "plan6": "Visit Patong Beach.",
+            "plan7": "Dinner at the hotel.",
+            "plan8": "Free time."
+        }
+    }
+}

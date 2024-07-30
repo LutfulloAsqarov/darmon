@@ -1,0 +1,49 @@
+.hero {
+    background: url("../../assets/images/hero/globus.svg") no-repeat center;
+    background-size: contain;
+    display: flex;
+    align-items: start;
+    position: relative;
+    height: 700px;
+    padding-top: 30px;
+    &__left {
+        width: 50%;
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        h1 {
+            font-size: 100px;
+            font-weight: 700;
+            line-height: 125.16px;
+            text-align: left;
+            color: #004290;
+            margin-bottom: 50px;
+        }
+    }
+    &__right {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 100%;
+            // background: url("../../assets/images/hero/hero-img1.svg") no-repeat;
+            // background-position: right bottom;
+            // z-index: 2;
+        }
+        img:first-child {
+            width: 100%;
+            // position: relative;
+            // z-index: 2;
+        }
+        img:last-child {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            height: auto;
+            width: 700px;
+            // z-index: 0;
+        }
+    }
+}

@@ -1,0 +1,92 @@
+#footer {
+    background: #004290;
+}
+.footer {
+    &__contact {
+        background: url("../../assets/images/footer-img.png") no-repeat center;
+        padding: 30px;
+        p {
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 31.8px;
+            text-align: left;
+            max-width: 900px;
+            color: #fff;
+        }
+    }
+    &__input {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        padding: 20px 0;
+        input {
+            padding: 10px;
+            outline: none;
+            border: none;
+            width: 300px;
+            border-radius: 5px;
+        }
+        button {
+            color: #fff;
+            background: #23af5f;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    }
+    &__mid {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 0;
+        &__phone {
+            color: #fff;
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 44.52px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+        &__left {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        &__right {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 45px;
+            text-align: left;
+            color: #fff;
+        }
+        &__medias {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            span {
+                width: 40px;
+                height: 40px;
+                background: #23af5f;
+                color: #fff;
+                border-radius: 80px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            svg {
+                font-size: 24px;
+            }
+        }
+    }
+    &__bot {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 45px;
+        text-align: left;
+        text-align: center;
+        color: #fff;
+        padding: 30px 0;
+        border-top: 1px solid #d9d9d9;
+    }
+}
