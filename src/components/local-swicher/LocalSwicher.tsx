@@ -25,6 +25,7 @@ const LocalSwitcher: React.FC = () => {
     return (
         <div className="header__len">
             <select
+                className="custom-select"
                 value={lang || "uz"}
                 onChange={(e) => setLang(e.target.value)}
             >

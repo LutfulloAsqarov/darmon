@@ -4,11 +4,28 @@
     align-items: center;
 }
 .about {
-    // padding: 80px 0;
     &__wrapper {
-        display: flex;
-        align-items: center;
+        p {
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 37.5px;
+
+            color: #004290;
+        }
+        p:nth-child(2) {
+            padding: 50px 0;
+        }
+        img {
+            float: right;
+            width: 50%;
+            shape-outside: circle();
+        }
     }
+    // &__info {
+    //     display: flex;
+    //     flex-direction: column;
+    //     gap: 40px;
+    // }
     h2 {
         font-size: 50px;
         font-weight: 600;
@@ -16,19 +33,5 @@
         text-align: center;
         padding: 0 0 30px;
         color: #004290;
-    }
-    &__left {
-        font-size: 25px;
-        font-weight: 400;
-        line-height: 37.5px;
-        text-align: left;
-        width: 50%;
-        color: #004290;
-    }
-    &__right {
-        width: 50%;
-        img {
-            width: 100%;
-        }
     }
 }

@@ -1,13 +1,17 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, { FC, useEffect, useState } from "react";
+import React, { FC, use, useEffect, useState } from "react";
 import logo from "@/assets/images/logo.svg";
 import "./header.scss";
 import { useTranslations } from "next-intl";
 import LocalSwicher from "../local-swicher/LocalSwicher";
+import { IoClose } from "react-icons/io5";
+import { CiBarcode, CiBurger } from "react-icons/ci";
+import { FaBars } from "react-icons/fa6";
 
 const Header: FC = () => {
+    const [show, setShow] = useState(false);
     const t = useTranslations("home");
     const [isScrolled, setIsScrolled] = useState(false);
 
@@ -41,7 +45,7 @@ const Header: FC = () => {
                             />
                         </Link>
                     </div>
-                    <ul className="header__list">
+                    <ul className={`header__list ${show ? "show" : ""}`}>
                         <li className="header__list__item">
                             <Link href={"#travel"}>{t("Turlar")}</Link>
                         </li>
@@ -56,10 +60,35 @@ const Header: FC = () => {
                         <li className="header__list__item">
                             <Link href={"#footer"}>{t("Aloqa")}</Link>
                         </li>
+                        <IoClose
+                            className="header__close"
+                            onClick={() => setShow(false)}
+                        />
                     </ul>
-                    <LocalSwicher />
+                    <div
+                        style={{
+                            display: "flex",
+                            alignItems: "center",
+                            gap: "16px",
+                        }}
+                    >
+                        <LocalSwicher />
+
+                        <FaBars
+                            className="header__bar"
+                            onClick={() => setShow(true)}
+                        />
+                    </div>
                 </div>
             </div>
+            {show ? (
+                <div
+                    className="header__outlet"
+                    onClick={() => setShow(false)}
+                ></div>
+            ) : (
+                <></>
+            )}
         </header>
     );
 };

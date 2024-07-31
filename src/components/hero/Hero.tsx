@@ -16,8 +16,11 @@ const Hero: FC = () => {
                 <div className="hero">
                     <div className="hero__left">
                         <h1>{h("hero")}</h1>
+
                         {/* <button>{t("btn")}</button> */}
-                        <Order />
+                        <div className="hero__left__btn">
+                            <Order />
+                        </div>
                     </div>
                     <div className="hero__right">
                         <Image

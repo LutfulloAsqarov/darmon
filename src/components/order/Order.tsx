@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "./order.scss";
 import { useTranslations } from "next-intl";
+import { IoClose } from "react-icons/io5";
 
 const Order = () => {
     const [order, setOrder] = useState(false);
@@ -20,6 +21,9 @@ const Order = () => {
                         onClick={() => setOrder(false)}
                     ></div>
                     <div className="order__model">
+                        <span className="order__close">
+                            <IoClose onClick={() => setOrder(false)} />
+                        </span>
                         <form>
                             <h3>
                                 Iltimos, operatorlarimiz siz bilan bog'lanishi

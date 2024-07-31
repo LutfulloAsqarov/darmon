@@ -11,10 +11,14 @@ const About = () => {
                 <div className="about">
                     <h2>{t("about.title")}</h2>
                     <div className="about__wrapper">
-                        <p className="about__left">{t("about.desc")}</p>
-                        <div className="about__right">
-                            <Image src={aboutImg} alt="about img" />
+                        <Image src={aboutImg} alt="about img" />
+                        <div className="about__info">
+                            <p className="about__left">{t("about.desc1")}</p>
+                            <p className="about__left">{t("about.desc2")}</p>
+                            <p className="about__left">{t("about.desc3")}</p>
                         </div>
+                        {/* <div className="about__right"> */}
+                        {/* </div> */}
                     </div>
                 </div>
             </div>

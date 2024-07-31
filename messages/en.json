@@ -24,7 +24,9 @@
         },
         "about": {
             "title": "About Us",
-            "desc": "Our company was founded in Tashkent in 2024 and is rapidly growing, offering unique tours and travels around the world. We are proud to create unforgettable impressions and provide our clients with the opportunity to discover new cultures, histories, and natural beauties.We are a young and dynamic team of dedicated professionals. Our guides and organizers carefully plan each trip, taking into account all the wishes and preferences of our clients. We strive to offer only the best routes to make every trip a true adventure.Since our foundation, we have gained the trust of our clients thanks to high-quality service and an individual approach to each traveler. Whether it's historical excursions in Europe, beach vacations in Thailand, or exciting safaris in Africa, we are always ready to offer the most interesting and unforgettable routes.Join us and discover the world from a new perspective! Your adventure begins here."
+            "desc1": "Our company was founded in Tashkent in 2024 and is rapidly growing, offering unique tours and travels around the world. We are proud to create unforgettable impressions and provide our clients with the opportunity to discover new cultures, histories, and natural beauties.",
+            "desc2": "We are a young and dynamic team of dedicated professionals. Our guides and organizers carefully plan each trip, taking into account all the wishes and preferences of our clients. We strive to offer only the best routes to make every trip a true adventure.",
+            "desc3": "Since our foundation, we have gained the trust of our clients thanks to high-quality service and an individual approach to each traveler. Whether it's historical excursions in Europe, beach vacations in Thailand, or exciting safaris in Africa, we are always ready to offer the most interesting and unforgettable routes.Join us and discover the world from a new perspective! Your adventure begins here."
         },
         "advantages": {
             "title": "Our Advantages",

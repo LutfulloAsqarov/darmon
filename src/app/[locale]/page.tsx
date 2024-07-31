@@ -15,10 +15,10 @@ export default function Home() {
     return (
         <div>
             <Hero />
-            <Countries />
-            <About />
-            <Advantages />
-            <Footer />
+            {/* <Countries /> */}
+            {/* <About /> */}
+            {/* <Advantages /> */}
+            {/* <Footer /> */}
         </div>
     );
 }
