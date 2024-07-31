@@ -30,8 +30,11 @@ const Countries: FC = () => {
                             navigation
                             // pagination={{ clickable: true }}
                             breakpoints={{
-                                1024: {
+                                1350: {
                                     slidesPerView: 4,
+                                },
+                                1024: {
+                                    slidesPerView: 3,
                                 },
                                 600: {
                                     slidesPerView: 2,

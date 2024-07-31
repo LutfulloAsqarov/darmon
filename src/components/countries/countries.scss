@@ -56,7 +56,6 @@
     // text-align: center;
     // padding: 20px;
     // background: #fff;
-    box-shadow: 0 0 10px #ddd;
     position: relative;
     border-radius: 20px;
     overflow: hidden;
@@ -72,6 +71,7 @@
         position: absolute;
         left: 0;
         // right: 0;
+        box-shadow: 0 0 10px #ddd;
         bottom: 0;
         padding: 20px;
         background: #fff;
@@ -98,6 +98,7 @@
     align-items: center;
     justify-content: center;
     border: 2px solid #007aff;
+    opacity: 1;
 }
 // .swiper-button-prev {
 //     transform: translate(-50%);
