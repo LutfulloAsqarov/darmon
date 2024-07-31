@@ -1,20 +1,21 @@
 #header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #fff;
-    z-index: 999;
-    &.scrolled {
-        box-shadow: 0 0 10px #ddd; // box-shadow qo'shildi
-    }
+    // position: sticky;
+    // top: 0;
+    // left: 0;
+    // width: 100%;
+    // background: #fff;
+    // z-index: 999;
+    // &.scrolled {
+    //     box-shadow: 0 0 10px #ddd; // box-shadow qo'shildi
+    // }
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
+    // padding: 20px 0;
+    height: 90px;
     &__len {
         display: flex;
         align-items: center;

@@ -37,6 +37,11 @@ const Order = () => {
                                 />
                             </div>
                             <button className="order__btn">{t("btn")}</button>
+                            <p>
+                                Ma’lumotlarni to’ldirib “Buyurtma berish”
+                                tugmasini bosish orqali ma’lumotlar yuboriladi
+                                va operator siz bilan tez orqada bog’lanadi.
+                            </p>
                         </form>
                     </div>
                 </>

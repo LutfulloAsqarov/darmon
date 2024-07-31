@@ -1,12 +1,15 @@
 .hero {
     background: url("../../assets/images/hero/globus.svg") no-repeat center;
     background-size: contain;
-    display: flex;
-    align-items: start;
-    position: relative;
-    height: 700px;
+    // display: flex;
+    // align-items: start;
+    // position: relative;
+    height: calc(100vh - 90px);
     padding-top: 30px;
+    position: relative;
+    width: 100%;
     &__left {
+        padding-top: 142px;
         width: 50%;
         text-align: start;
         display: flex;
@@ -22,28 +25,38 @@
         }
     }
     &__right {
-        width: 50%;
+        width: 1000px;
+        // width: 50%;s
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        img {
-            width: 100%;
-            // background: url("../../assets/images/hero/hero-img1.svg") no-repeat;
-            // background-position: right bottom;
-            // z-index: 2;
-        }
-        img:first-child {
-            width: 100%;
-            // position: relative;
-            // z-index: 2;
-        }
-        img:last-child {
+        position: absolute;
+        right: 0;
+
+        bottom: 0;
+        // img {
+        //     // width: 100%;
+        //     // background: url("../../assets/images/hero/hero-img1.svg") no-repeat;
+        //     // background-position: right bottom;
+        //     // z-index: 2;
+        // }
+        &__beach {
             position: absolute;
-            bottom: 0;
             right: 0;
-            height: auto;
+            bottom: 0;
+            width: 100%;
+            // width: 884px;
+            // position: relative;
+            z-index: 9;
+        }
+        &__women {
+            position: absolute;
+            bottom: 100px;
+            right: 0;
             width: 700px;
-            // z-index: 0;
+            height: auto;
+            z-index: 99;
         }
     }
 }

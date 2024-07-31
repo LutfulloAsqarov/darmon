@@ -1,6 +1,9 @@
 #travel {
     background: #f1f3ff;
-    padding: 80px 0;
+    // padding: 80px 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .travel {
     h2 {
@@ -52,9 +55,11 @@
 .carousel-item {
     // text-align: center;
     // padding: 20px;
-    background: #fff;
+    // background: #fff;
     box-shadow: 0 0 10px #ddd;
-    border-radius: 18px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
 
     img {
         width: 100%;
@@ -64,7 +69,13 @@
         object-fit: cover;
     }
     &__info {
+        position: absolute;
+        left: 0;
+        // right: 0;
+        bottom: 0;
         padding: 20px;
+        background: #fff;
+        width: 100%;
     }
     h3 {
         // margin: 10px 0;

@@ -19,10 +19,11 @@
         left: 0;
         width: 100%;
         height: 100vh;
-        backdrop-filter: blur(2px);
+        background: #0000003a;
         z-index: 50;
     }
     &__model {
+        width: 500px;
         position: fixed;
         top: 50%;
         left: 50%;
@@ -30,16 +31,25 @@
         z-index: 99;
         background: #fff;
         box-shadow: 0 0 10px #ddd;
-        padding: 100px 30px;
-        border-radius: 20px;
-        border-top: 50px solid #00429080;
-        border-bottom: 50px solid #00429080;
+        padding: 50px 0px;
+        border-radius: 50px;
+        border-top: 80px solid #00429080;
+        border-bottom: 80px solid #00429080;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         form {
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 30px;
             width: 450px;
+            h3 {
+                font-size: 28px;
+                font-weight: 500;
+                line-height: 35.62px;
+                text-align: center;
+            }
             input {
                 width: 100%;
                 padding: 20px;
@@ -56,6 +66,13 @@
             button {
                 width: 100%;
                 text-align: center;
+            }
+            p {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 22.9px;
+                text-align: center;
+                color: #00000057;
             }
         }
     }
