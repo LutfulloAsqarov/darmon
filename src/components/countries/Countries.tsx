@@ -15,6 +15,15 @@ import { Navigation, Pagination } from "swiper/modules";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
+import { Card, CardContent } from "@/components/ui/card";
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
+} from "@/components/ui/carousel";
+
 const Countries: FC = () => {
     const t = useTranslations("home");
     return (
@@ -22,85 +31,156 @@ const Countries: FC = () => {
             <div className="container">
                 <div className="travel">
                     <h2>{t("tours.title")}</h2>
-                    <div className="carousel-container">
-                        <Swiper
-                            modules={[Navigation, Pagination]}
-                            spaceBetween={50}
-                            slidesPerView={4}
-                            navigation
-                            // pagination={{ clickable: true }}
-                            breakpoints={{
-                                1350: {
-                                    slidesPerView: 4,
-                                },
-                                1024: {
-                                    slidesPerView: 3,
-                                },
-                                600: {
-                                    slidesPerView: 2,
-                                },
-                                480: {
-                                    slidesPerView: 1,
-                                },
+                    <div className="flex justify-center items-center">
+                        <Carousel
+                            opts={{
+                                align: "start",
                             }}
+                            className="carousel w-[90%] "
                         >
-                            <SwiperSlide>
-                                <div className="carousel-item">
-                                    <Link href={`/turk`}>
-                                        <Image src={card1} alt="Istanbul" />
-                                    </Link>
-                                    <div className="carousel-item__info">
-                                        <h3>{t("tours.country1")}</h3>
-                                        <p>{t("tours.city1")}</p>
+                            <CarouselContent className="">
+                                <CarouselItem className="md:basis-1/3 lg:basis-1/4">
+                                    <div className="max-w-[300px] m-auto">
+                                        <Card className="border-0 rounded-3xl ">
+                                            <CardContent className="bg-white p-0 rounded-2xl">
+                                                <div className="carousel-item">
+                                                    <Link href={`/turk`}>
+                                                        <Image
+                                                            src={card1}
+                                                            alt="Istanbul"
+                                                            width={100}
+                                                            height={100}
+                                                        />
+                                                    </Link>
+                                                    <div className="carousel-item__info">
+                                                        <h3>
+                                                            {t(
+                                                                "tours.country1"
+                                                            )}
+                                                        </h3>
+                                                        <p>
+                                                            {t("tours.city1")}
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </CardContent>
+                                        </Card>
                                     </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="carousel-item">
-                                    <Link href={"/egypt"}>
-                                        <Image src={card2} alt="Cairo" />
-                                    </Link>
-                                    <div className="carousel-item__info">
-                                        <h3>{t("tours.country2")}</h3>
-                                        <p>{t("tours.city2")}</p>
+                                </CarouselItem>
+                                <CarouselItem className="md:basis-1/3 lg:basis-1/4 h-auto">
+                                    <div className=" max-w-[300px] m-auto">
+                                        <Card className="border-0 rounded-3xl">
+                                            <CardContent className="bg-white p-0 rounded-2xl">
+                                                <div className="carousel-item">
+                                                    <Link href={"/egypt"}>
+                                                        <Image
+                                                            src={card2}
+                                                            alt="Cairo"
+                                                        />
+                                                    </Link>
+                                                    <div className="carousel-item__info">
+                                                        <h3>
+                                                            {t(
+                                                                "tours.country2"
+                                                            )}
+                                                        </h3>
+                                                        <p>
+                                                            {t("tours.city2")}
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </CardContent>
+                                        </Card>
                                     </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="carousel-item">
-                                    <Link href={"/dubai"}>
-                                        <Image src={card3} alt="Dubai" />
-                                    </Link>
-                                    <div className="carousel-item__info">
-                                        <h3>{t("tours.country3")}</h3>
-                                        <p>{t("tours.country3")}</p>
+                                </CarouselItem>
+                                <CarouselItem className="md:basis-1/3 lg:basis-1/4 h-auto">
+                                    <div className="max-w-[300px] m-auto">
+                                        <Card className="border-0 rounded-3xl">
+                                            <CardContent className="bg-white p-0 rounded-2xl">
+                                                <div className="carousel-item">
+                                                    <Link href={"/dubai"}>
+                                                        <Image
+                                                            src={card3}
+                                                            alt="Dubai"
+                                                        />
+                                                    </Link>
+                                                    <div className="carousel-item__info">
+                                                        <h3>
+                                                            {t(
+                                                                "tours.country3"
+                                                            )}
+                                                        </h3>
+                                                        <p>
+                                                            {t(
+                                                                "tours.country3"
+                                                            )}
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </CardContent>
+                                        </Card>
                                     </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="carousel-item">
-                                    <Link href={"/europe"}>
-                                        <Image src={card4} alt="Paris" />
-                                    </Link>
-                                    <div className="carousel-item__info">
-                                        <h3>{t("tours.country4")}</h3>
-                                        <p>{t("tours.country4")}</p>
+                                </CarouselItem>
+                                <CarouselItem className="md:basis-1/3 lg:basis-1/4 h-auto ">
+                                    <div className="max-w-[300px] m-auto">
+                                        <Card className="border-0 rounded-3xl">
+                                            <CardContent className="bg-white p-0 rounded-2xl">
+                                                <div className="carousel-item">
+                                                    <Link href={"/europe"}>
+                                                        <Image
+                                                            src={card4}
+                                                            alt="Paris"
+                                                        />
+                                                    </Link>
+                                                    <div className="carousel-item__info">
+                                                        <h3>
+                                                            {t(
+                                                                "tours.country4"
+                                                            )}
+                                                        </h3>
+                                                        <p>
+                                                            {t(
+                                                                "tours.country4"
+                                                            )}
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </CardContent>
+                                        </Card>
                                     </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="carousel-item">
-                                    <Link href={"thailand"}>
-                                        <Image src={card1} alt="Tailand" />
-                                    </Link>
-                                    <div className="carousel-item__info">
-                                        <h3>{t("tours.country5")}</h3>
-                                        <p>{t("tours.city5")}</p>
+                                </CarouselItem>
+                                <CarouselItem className="md:basis-1/2 lg:basis-1/4 h-auto">
+                                    <div className="max-w-[300px] m-auto">
+                                        <Card className="border-0 rounded-3xl">
+                                            <CardContent className="bg-white p-0 rounded-2xl">
+                                                <div className="carousel-item">
+                                                    <Link href={"thailand"}>
+                                                        <Image
+                                                            src={card1}
+                                                            alt="Tailand"
+                                                        />
+                                                    </Link>
+                                                    <div className="carousel-item__info">
+                                                        <h3>
+                                                            {t(
+                                                                "tours.country5"
+                                                            )}
+                                                        </h3>
+                                                        <p>
+                                                            {t("tours.city5")}
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </CardContent>
+                                        </Card>
                                     </div>
-                                </div>
-                            </SwiperSlide>
-                        </Swiper>
+                                </CarouselItem>
+                            </CarouselContent>
+                            <CarouselPrevious />
+                            <CarouselNext />
+                        </Carousel>
                     </div>
+
                     <div className="travel__discount">
                         <p>
                             <span>15-Noyabrgacha</span> Yevropa uchun tur bron
@@ -125,6 +205,10 @@ const Countries: FC = () => {
                 </div>
             </div>
         </section>
+
+        // <div className="container">
+        //     <h1 className="text-red-600 text-end">hello</h1>
+        // </div>
     );
 };
 

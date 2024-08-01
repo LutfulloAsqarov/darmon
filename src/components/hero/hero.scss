@@ -15,7 +15,7 @@
         text-align: start;
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: flex-start;
         h1 {
             font-size: 100px;
             font-weight: 700;
@@ -90,7 +90,7 @@
         flex-direction: column-reverse;
         align-items: center;
         // justify-content: center;
-        justify-content: start;
+        justify-content: flex-start;
         position: static;
         &__left {
             padding-top: 0;
