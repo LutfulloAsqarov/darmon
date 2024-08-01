@@ -38,9 +38,9 @@ const Countries: FC = () => {
                             }}
                             className="carousel w-[90%] "
                         >
-                            <CarouselContent className="">
-                                <CarouselItem className="md:basis-1/3 lg:basis-1/4">
-                                    <div className="max-w-[300px] m-auto">
+                            <CarouselContent className="h-[50%]">
+                                <CarouselItem className="md:basis-1/3 lg:basis-1/4 h-[100%]">
+                                    <div className="max-w-[300px] m-auto h-[100%]">
                                         <Card className="border-0 rounded-3xl ">
                                             <CardContent className="bg-white p-0 rounded-2xl">
                                                 <div className="carousel-item">
